@@ -1,10 +1,8 @@
-
-
-\# Arab szám - római szám konverter (TDD)
+Arab szám - római szám konverter (TDD)
 
 
 
-\## Projekt leírása
+Projekt leírása:
 
 
 
@@ -20,7 +18,7 @@ a hagyományos római számírás szabályai szerint.
 
 
 
-\## Használt technológiák
+Használt technológiák:
 
 
 
@@ -34,7 +32,7 @@ a hagyományos római számírás szabályai szerint.
 
 
 
-\## Fejlesztési módszertan
+Fejlesztési módszertan:
 
 
 
@@ -56,7 +54,7 @@ A fejlesztés három lépésből áll:
 
 
 
-\## Tervezett funkciók
+Tervezett funkciók:
 
 
 
@@ -72,7 +70,7 @@ A fejlesztés három lépésből áll:
 
 
 
-\## Projekt felépítése
+Projekt felépítése:
 
 
 
@@ -90,7 +88,7 @@ A projekt tervezett fájljai:
 
 
 
-\## Tesztelés
+Tesztelés:
 
 
 
@@ -106,7 +104,7 @@ mivel CDN-en keresztül töltődik be.
 
 
 
-\## Projekt állapota
+Projekt állapota:
 
 
 
