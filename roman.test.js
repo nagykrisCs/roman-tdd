@@ -33,4 +33,34 @@ QUnit.module("Arab szám - római szám konverter", function () {
         assert.strictEqual(toRoman(3999), "MMMCMXCIX");
     });
 
+    QUnit.test("Érvénytelen bemenetek", function (assert) {
+        assert.throws(function () {
+            toRoman(0);
+        }, "A 0 érvénytelen");
+
+        assert.throws(function () {
+            toRoman(-1);
+        }, "A negatív szám érvénytelen");
+
+        assert.throws(function () {
+            toRoman(4000);
+        }, "A 4000 kívül esik a tartományon");
+
+        assert.throws(function () {
+            toRoman(3.5);
+        }, "A tört szám érvénytelen");
+
+        assert.throws(function () {
+            toRoman("10");
+        }, "A szöveges bemenet érvénytelen");
+
+        assert.throws(function () {
+            toRoman(null);
+        }, "A null érték érvénytelen");
+
+        assert.throws(function () {
+            toRoman(NaN);
+        }, "A NaN érték érvénytelen");
+    });
+
 });
