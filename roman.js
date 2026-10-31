@@ -1,5 +1,9 @@
 
 function toRoman(number) {
+    if (!Number.isInteger(number) || number < 1 || number > 3999) {
+        throw new Error("A számnak 1 és 3999 közötti egész számnak kell lennie.");
+    }
+
     const values = [
         1000, 900, 500, 400,
         100, 90, 50, 40,
