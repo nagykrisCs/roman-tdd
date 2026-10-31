@@ -1,12 +1,14 @@
 
 function toRoman(number) {
     const values = [
-        900, 400, 90, 40,
+        1000, 900, 500, 400,
+        100, 90, 50, 40,
         10, 9, 5, 4, 1
     ];
 
     const symbols = [
-        "CM", "CD", "XC", "XL",
+        "M", "CM", "D", "CD",
+        "C", "XC", "L", "XL",
         "X", "IX", "V", "IV", "I"
     ];
 
